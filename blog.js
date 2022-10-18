@@ -1,14 +1,25 @@
+<<<<<<< Updated upstream
 let dataBlog = [] // untuk menyimpan data-data blog
 
 function addBlog(event) {
     event.preventDefault() // agar tidak melakukan referesh halaman
+=======
+let dataBlog = [] // menyimpan data-data blog
+
+function addBlog(event) {
+    event.preventDefault() // agar tidak referesh halaman
+>>>>>>> Stashed changes
 
     let title = document.getElementById("input-blog-title").value
     let content = document.getElementById("input-blog-content").value
     // let startDate = document.getElementById("start-date").value
     // let endDate = document.getElementById("end-date").value
 
+<<<<<<< Updated upstream
     // karena kita ingin mengambil file datanya bukan valuenya
+=======
+    // file data bukan value
+>>>>>>> Stashed changes
     let image = document.getElementById("input-blog-image").files
 
     let facebook = document.getElementById("input-fb").checked
@@ -43,13 +54,20 @@ function addBlog(event) {
     }
 
 
+<<<<<<< Updated upstream
     // mengelompakan data menjadi object
+=======
+>>>>>>> Stashed changes
     let blog = {
         title,
         content,
         image,
         postAt: new Date(),
+<<<<<<< Updated upstream
         author: "Samsul Rijal",
+=======
+        author: "yuzevan",
+>>>>>>> Stashed changes
         // startDate,
         // endDate,
         facebook,
@@ -60,7 +78,11 @@ function addBlog(event) {
     dataBlog.push(blog)
     console.log(dataBlog);
 
+<<<<<<< Updated upstream
     renderBlog() // menjalankan function renderBlog agar data blog tampil
+=======
+    renderBlog() // menjalankan function
+>>>>>>> Stashed changes
 }
 
 function renderBlog(){
@@ -131,7 +153,11 @@ function getFullTime(time){
         minutes = "0" + minutes
     }
 
+<<<<<<< Updated upstream
     // 16 Sep 2022 09:11 WIB
+=======
+
+>>>>>>> Stashed changes
     return `${date} ${monthName[monthIndex]} ${year} ${hours}:${minutes} WIB`
 }
 
@@ -140,6 +166,7 @@ function getDistanceTime(time){
     let timeNow = new Date()
     let timePost = time
 
+<<<<<<< Updated upstream
     // waktu sekarang - waktu post
     let distance = timeNow - timePost // hasilnya milisecond
     console.log(distance);
@@ -147,6 +174,18 @@ function getDistanceTime(time){
     let milisecond = 1000 // milisecond
     let secondInHours = 3600 // 1 jam 3600 detik
     let hoursInDay = 24 // 1 hari 24 jam
+=======
+    // time now to post
+
+    let distance = timeNow - timePost
+    console.log(distance);
+
+    let milisecond = 1000
+
+    let secondInHours = 3600
+    
+    let hoursInDay = 24
+>>>>>>> Stashed changes
 
     let distanceDay = Math.floor(distance / (milisecond * secondInHours * hoursInDay))
     let distanceHours = Math.floor(distance / (milisecond * 60 * 60))

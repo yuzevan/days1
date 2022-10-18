@@ -1,5 +1,9 @@
 * {
+<<<<<<< Updated upstream
     text-decoration: none;
+=======
+    font-family: Arial, Helvetica, sans-serif
+>>>>>>> Stashed changes
 }
 
 body {
@@ -20,13 +24,28 @@ nav ul {
 }
 
 nav ul li {
+<<<<<<< Updated upstream
     margin-right: 20px;
 }
 
+=======
+    color: black;
+    margin-right: 40px;
+    
+    
+}
+
+nav ul li a.list-active {
+    color: cornflowerblue;
+    font-weight: 700;
+  }
+
+>>>>>>> Stashed changes
 .nav-left {
     flex: 50%;
 }
 
+<<<<<<< Updated upstream
 .nav-left a {
     color: cornflowerblue;
 }
@@ -35,6 +54,13 @@ nav ul li {
     flex: 50%;
     text-align: end;
     margin-right: 25px;
+=======
+
+.nav-right {
+    flex: 100%;
+    text-align: end;
+    margin-right: 40px;
+>>>>>>> Stashed changes
 }
 
 .nav-right a {
@@ -47,13 +73,21 @@ nav ul li {
 .container {
     display: flex;
     justify-content: center;
+<<<<<<< Updated upstream
     height: 90vh;
+=======
+    height: 100vh;
+>>>>>>> Stashed changes
     align-items: center;
 }
 
 section {
     display: flex;
+<<<<<<< Updated upstream
     width: 80%;
+=======
+    width: 90%;
+>>>>>>> Stashed changes
 }
 
 .left {
@@ -63,6 +97,10 @@ section {
 .right {
     flex: 70%;
     margin-left: 50px;
+<<<<<<< Updated upstream
+=======
+    margin-top: 90px;
+>>>>>>> Stashed changes
 }
 
 .skill {
@@ -73,4 +111,8 @@ section {
 .social-media i {
     margin-right: 20px;
     font-size: 30px;
+<<<<<<< Updated upstream
+=======
+    margin-top: 10px;
+>>>>>>> Stashed changes
 }

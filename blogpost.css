@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 7vh;
+}
+
+.container-fluid {
+    height: 92vh;
+}

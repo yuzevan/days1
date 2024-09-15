@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+.tambahan-blog {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.tambahan-blog .tambahan-blog-card img {
+    width: 100%;
+}
+
+.detail-blog .tambahan-blog-card .tambahan-blog-title {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.tambahan-blog .tambahan-blog-card .tambahan-blog-author {
+    margin-bottom: 30px;
+}
+
+.tambahan-blog .tambahan-blog-card .tambahan-blog-content {
+    font-size: 25px;
+}

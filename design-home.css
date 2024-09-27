@@ -1,0 +1,118 @@
+* {
+<<<<<<< Updated upstream
+    text-decoration: none;
+=======
+    font-family: Arial, Helvetica, sans-serif
+>>>>>>> Stashed changes
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #f4f3f3;
+    display: flex;
+    align-items: center;
+    height: 8vh;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav ul li {
+<<<<<<< Updated upstream
+    margin-right: 20px;
+}
+
+=======
+    color: black;
+    margin-right: 40px;
+    
+    
+}
+
+nav ul li a.list-active {
+    color: cornflowerblue;
+    font-weight: 700;
+  }
+
+>>>>>>> Stashed changes
+.nav-left {
+    flex: 50%;
+}
+
+<<<<<<< Updated upstream
+.nav-left a {
+    color: cornflowerblue;
+}
+
+.nav-right {
+    flex: 50%;
+    text-align: end;
+    margin-right: 25px;
+=======
+
+.nav-right {
+    flex: 100%;
+    text-align: end;
+    margin-right: 40px;
+>>>>>>> Stashed changes
+}
+
+.nav-right a {
+    background-color: cornflowerblue;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+<<<<<<< Updated upstream
+    height: 90vh;
+=======
+    height: 100vh;
+>>>>>>> Stashed changes
+    align-items: center;
+}
+
+section {
+    display: flex;
+<<<<<<< Updated upstream
+    width: 80%;
+=======
+    width: 90%;
+>>>>>>> Stashed changes
+}
+
+.left {
+    flex: 30%;
+}
+
+.right {
+    flex: 70%;
+    margin-left: 50px;
+<<<<<<< Updated upstream
+=======
+    margin-top: 90px;
+>>>>>>> Stashed changes
+}
+
+.skill {
+    display: flex;
+    margin-top: 30px;
+}
+
+.social-media i {
+    margin-right: 20px;
+    font-size: 30px;
+<<<<<<< Updated upstream
+=======
+    margin-top: 10px;
+>>>>>>> Stashed changes
+}
